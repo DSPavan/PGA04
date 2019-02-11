@@ -1,0 +1,10 @@
+
+# Read
+loadExcel <- loadWorkbook("C:\\Users\\radhapavan\\Desktop\\Rfiles\\train4_pcat_category_dealprob_wexcel.xlsx", create = FALSE)
+dtexcl <- readWorksheet(loadExcel,'sheet1')
+#print(dtexcl)
+str(dtexcl)
+
+
+options(java.parameters = "-Xmx4g" )
+library(XLConnect)

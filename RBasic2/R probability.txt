@@ -1,0 +1,25 @@
+Machine Learning
+Posted 9 hours ago
+Would like some statistical analysis done with the data on the gSheet below 
+https://docs.google.com/spreadsheets/d/1PE-oJcF7Z-lDijq7ES0cFUTw-_rJUyNh6ixmWeWDp00/edit?usp=sharing
+
+I’m not a statistics expert, so I’m not sure if it’s possible to do a continuous probability with conditions (Ratings, Token Circulation, Funding, Social following)  Curious to see in general what trends  / probabilities there are, and the below
+
+
+Ratings (column S) and Returns (Column V)
+Given a specific rating, what’s the probability that the return (column W) was positive, or negative? Other example What’s the probability that I had a return from 0 - 100%?
+
+In the Tab “ICO Bench Rating” I have continuous distribution given a particular rating. Eg, if a set of returns had a rating of 3, then I plotted out the Pr distribution .. I dont know if that’s a correct method or not. 
+
+2. Token circulation (column R) and Returns (Column V)
+Given a range of % in circulation, what is the probability the return (column W) was positive
+
+3. Funding (column N)  and Returns (column v)
+How does the amount funded impact the probability of postive returns 
+
+What is the relationship between social media followings (column Z, AA, AB) have on Returns (column V)
+
+
+Then end goal is the give a final probability based on all these other conditional probabilities. 
+
+I would like to have the raw data you used for the calculations as well, preferable in the Excel sheet.

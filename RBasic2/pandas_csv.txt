@@ -1,0 +1,31 @@
+
+
+Does the top level category affect the chances of an item being sold?
+
+category effect the chances in R
+
+
+data <- read.csv("C:\\Users\\radhapavan\\Desktop\\Rfiles\\train.csv")
+
+data <- read.big.matrix("C:\\Users\\radhapavan\\Desktop\\Rfiles\\train.csv", type = "integer", header=TRUE)
+
+
+yyy = fread("C:\\Users\\radhapavan\\Desktop\\Rfiles\\train.csv", header = TRUE)
+
+
+data <- read.table(unz("C:\Users\radhapavan\Downloads\train.csv.zip", "train.csv"), nrows=10, header=T, quote="\"", sep=",")
+
+
+'''
+import codecs
+
+p = u"????????????"  # note the 'u' prefix
+
+print( p)   # probably won't work on Windows due to a complex issue
+
+with codecs.open("C:\\Users\\radhapavan\\Desktop\\Rfiles\\train2.csv", "w", "utf-16") as stream:   # or utf-8
+    stream.write(p + u"\n")
+
+
+#writefile = codecs.open('write.txt', 'w', 'utf-8')
+'''

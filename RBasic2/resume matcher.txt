@@ -1,0 +1,23 @@
+pdf("plots2.pdf")
+v <- c(0,1,2)
+print(dnorm(v))
+x <- seq(-20,20,by=.1)
+y <- pnorm(x,mean=3,sd=4, lower.tail=FALSE)
+plot(x,y, main="P Norm Tail = FALSE")
+y <- pnorm(x,mean=3,sd=4, lower.tail=TRUE)
+z <- qnorm(y)
+z <- qnorm(y)
+plot(x,y, main="P Norm Tail = TRUE")
+plot(x,z, main="Q Norm Fisrt sample")
+x <- seq(0,1,by=.05)
+y <- qnorm(x)
+plot(x,y, main="Q Norm 2nd sample")
+dev.off()
+
+r <- rnorm(4,mean=3,sd=3)
+print(r)
+hist(r)
+
+We are in the exploratory phase of developing a natural language processing (NLP) based recommender system and we need a mid to senior level data science consultant to help us in the development process. For this fixed price project, the freelancer should use an existing open source project on github (https://github.com/folagit/resumatcher) as a starting point and add the functionality to recommend full text research papers from pubmed central (https://www.ncbi.nlm.nih.gov/pmc/) and Europe PMC (https://europepmc.org/) based on user's resume.
+
+The freelancer should have strong experience in using python based NLP libraries and machine learning (nltk, spacy, sci-kit learn, tensorflow, pytorch etc). The freelancer should also be thoroughly familiar with basics of different recommender systems (collaborative filtering, content based, knowledge based) etc.
